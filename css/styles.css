@@ -1,0 +1,108 @@
+/* TAG SELECTOR */
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    display: inline;
+    line-height: 2;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+    display: inline;
+}
+
+/* CLASS SELECTOR */
+
+.top-container {
+    background-color: hsl(185, 75%, 39%);
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-top {
+    position: absolute;
+    top: -75%;
+    left: -25%;
+}
+
+.bg-bottom {
+    position: absolute;
+    bottom: -75%;
+    right: -25%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5%;
+    height: 450px;
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-top {
+    height: 75%;
+    position: relative;
+}
+
+.bg-card {
+    height: 50%;
+}
+
+.profile {
+    border: solid;
+    border-color: white;
+    border-radius: 100%;
+    border-width: 5px;
+    position: absolute;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info {
+    padding: 80px;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    padding-left: 4px;
+}
+
+.card-bottom {
+    border-top: solid;
+    border-color: lightgray;
+    border-width: 0.1px;
+    height: 25%;
+}
+
+.count {
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+.count-text {
+    padding: 20px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
